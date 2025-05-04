@@ -41,9 +41,11 @@ const Navbar = () => {
     >
       <div className="container flex items-center justify-between">
         <a href="#" className="flex items-center">
-          <span className="font-heading font-bold text-2xl text-indoblade-blue">
-            Indoblade<span className="text-indoblade-purple">ICT</span>
-          </span>
+          <img 
+            src="/lovable-uploads/d90e9178-7b26-455d-9ae5-c2f17f6fc2b2.png" 
+            alt="Indoblade ICT Solutions Logo" 
+            className="h-10 md:h-12"
+          />
         </a>
 
         {/* Desktop Navigation */}

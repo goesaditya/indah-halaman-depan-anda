@@ -30,8 +30,14 @@ const Clients = () => {
   
   // Education partners
   const partners = [
-    { name: "Telkom University", logo: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" },
-    { name: "ITB Bandung", logo: "https://images.unsplash.com/photo-1532649538693-f3a2ec1bf8bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" },
+    { 
+      name: "Telkom University", 
+      logo: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    { 
+      name: "ITB Bandung", 
+      logo: "https://images.unsplash.com/photo-1532649538693-f3a2ec1bf8bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
   ];
 
   return (
