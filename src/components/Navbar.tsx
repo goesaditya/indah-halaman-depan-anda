@@ -13,6 +13,7 @@ const Navbar = () => {
     { title: 'Tentang', href: '#tentang' },
     { title: 'Layanan', href: '#layanan' },
     { title: 'Portofolio', href: '#portofolio' },
+    { title: 'Klien', href: '#client-section' },
     { title: 'Kontak', href: '#kontak' },
   ];
 
