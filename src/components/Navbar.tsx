@@ -42,9 +42,9 @@ const Navbar = () => {
       <div className="container flex items-center justify-between">
         <a href="#" className="flex items-center">
           <img 
-            src="/lovable-uploads/d90e9178-7b26-455d-9ae5-c2f17f6fc2b2.png" 
+            src="/lovable-uploads/67ee4727-862b-4d76-b13b-2a1adc9c926b.png" 
             alt="Indoblade ICT Solutions Logo" 
-            className="h-12 md:h-16" // Increased logo size from h-10 md:h-12 to h-12 md:h-16
+            className="h-16 md:h-20" // Further increased logo size from h-12 md:h-16 to h-16 md:h-20
           />
         </a>
 
