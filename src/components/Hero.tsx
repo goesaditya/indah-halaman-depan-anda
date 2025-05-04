@@ -27,10 +27,12 @@ const Hero = () => {
                 Mitra terpercaya untuk transformasi digital bisnis, pendidikan, pemerintahan, dan UMKM dengan solusi teknologi terintegrasi yang adaptif dan profesional.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button className="btn-primary flex items-center gap-2 group">
-                  Konsultasi Gratis
-                  <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
-                </Button>
+                <a href="https://wa.me/+6282312912828" target="_blank" rel="noopener noreferrer">
+                  <Button className="btn-primary flex items-center gap-2 group">
+                    Konsultasi Gratis
+                    <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
+                  </Button>
+                </a>
                 <Button variant="outline" className="btn-secondary">
                   Pelajari Layanan
                 </Button>
@@ -42,9 +44,9 @@ const Hero = () => {
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-indoblade-purple/10 rounded-full blur-md"></div>
             <div className="relative z-10 rounded-xl overflow-hidden shadow-2xl transform rotate-1 hover:rotate-0 transition-all duration-500">
               <img 
-                src="/lovable-uploads/d90e9178-7b26-455d-9ae5-c2f17f6fc2b2.png" 
-                alt="Indoblade ICT Solutions Logo" 
-                className="w-full h-auto bg-white p-8"
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
+                alt="Indoblade ICT Solutions" 
+                className="w-full h-auto"
               />
             </div>
             <div className="absolute -bottom-5 -right-5 w-32 h-32 bg-indoblade-bright-blue/20 rounded-full blur-md"></div>

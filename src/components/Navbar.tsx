@@ -44,7 +44,7 @@ const Navbar = () => {
           <img 
             src="/lovable-uploads/d90e9178-7b26-455d-9ae5-c2f17f6fc2b2.png" 
             alt="Indoblade ICT Solutions Logo" 
-            className="h-10 md:h-12"
+            className="h-12 md:h-16" // Increased logo size from h-10 md:h-12 to h-12 md:h-16
           />
         </a>
 
@@ -62,7 +62,9 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <Button className="btn-primary">Hubungi Kami</Button>
+          <a href="https://wa.me/+6282312912828" target="_blank" rel="noopener noreferrer">
+            <Button className="btn-primary">Hubungi Kami</Button>
+          </a>
         </div>
 
         {/* Mobile menu button */}
@@ -90,9 +92,9 @@ const Navbar = () => {
               </li>
             ))}
             <li>
-              <Button className="btn-primary w-full" onClick={() => setIsOpen(false)}>
-                Hubungi Kami
-              </Button>
+              <a href="https://wa.me/+6282312912828" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
+                <Button className="btn-primary w-full">Hubungi Kami</Button>
+              </a>
             </li>
           </ul>
         </div>
