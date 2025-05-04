@@ -21,7 +21,7 @@ const Clients = () => {
 
   // Client logos - replace with actual client logos when available
   const clients = [
-    { name: "BAKTI Kominfo", logo: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" },
+    { name: "BAKTI Kominfo", logo: "/lovable-uploads/b697bc9c-0347-4af1-b361-c47b7e7a86fe.png" },
     { name: "SDPPI Kominfo", logo: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" },
     { name: "Telkom", logo: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" },
     { name: "Telkomsel", logo: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" },

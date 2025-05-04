@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-indoblade-purple/10 rounded-full blur-md"></div>
             <div className="relative z-10 rounded-xl overflow-hidden shadow-2xl transform rotate-1 hover:rotate-0 transition-all duration-500">
               <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" 
+                src="/lovable-uploads/9e59461a-4254-44c1-8b59-55417c8e7e39.png" 
                 alt="Indoblade ICT Solutions" 
                 className="w-full h-auto"
               />
